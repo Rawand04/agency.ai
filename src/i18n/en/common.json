@@ -1,0 +1,126 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "ourWork": "Our Work",
+    "contactUs": "Contact Us"
+  },
+
+  "hero": {
+    "trustedPeople": "Trusted by 10k+ people",
+    "titleBefore": "Turning imagination into",
+    "titleHighlight": "digital",
+    "titleAfter": "impact.",
+    "description": "Creating meaningful connections and turning big ideas into interactive digital experiences."
+  },
+
+  "trustedCompanies": {
+    "title": "Trusted by Leading Companies"
+  },
+
+  "services": {
+    "title": "How can we help?",
+    "description": "From strategy to execution, we craft digital solutions that move your business forward.",
+    "items": {
+      "advertising": {
+        "title": "Advertising",
+        "description": "We turn bold ideas into powerful digital solutions that connect, engage..."
+      },
+      "contentMarketing": {
+        "title": "Content marketing",
+        "description": "We turn bold ideas into powerful digital solutions that connect, engage and..."
+      },
+      "contentWriting": {
+        "title": "Content writing",
+        "description": "We turn bold ideas into powerful digital solutions that connect..."
+      },
+      "socialMedia": {
+        "title": "Social media",
+        "description": "We turn bold ideas into powerful digital solutions that connect, engage..."
+      }
+    }
+  },
+
+  "work": {
+    "title": "Our latest work",
+    "description": "Browse our portfolio of innovative digital projects that showcase creativity, performance, and results.",
+    "items": {
+      "mobileApp": {
+        "title": "Mobile app marketing",
+        "description": "We turn bold ideas into powerful digital solutions that connect..."
+      },
+      "dashboard": {
+        "title": "Dashboard management",
+        "description": "We turn bold ideas into powerful digital solutions that connect..."
+      },
+      "fitnessApp": {
+        "title": "Fitness app promotion",
+        "description": "We turn bold ideas into powerful digital solutions that connect..."
+      }
+    }
+  },
+
+  "team": {
+    "title": "Meet the team",
+    "description": "A passionate team of digital experts dedicated to your brand’s success.",
+    "members": {
+      "haley": {
+        "name": "Haley Carter",
+        "role": "CEO & founder"
+      },
+      "james": {
+        "name": "James Walker",
+        "role": "Ads manager"
+      },
+      "jessica": {
+        "name": "Jessica Morgan",
+        "role": "Vice president"
+      },
+      "ashley": {
+        "name": "Ashley Bennett",
+        "role": "Marketing & sales"
+      },
+      "emily": {
+        "name": "Emily Parker",
+        "role": "Content marketer"
+      },
+      "ryan": {
+        "name": "Ryan Mitchell",
+        "role": "Content writer"
+      },
+      "megan": {
+        "name": "Megan Brooks",
+        "role": "Performance manager"
+      },
+      "amber": {
+        "name": "Amber Foster",
+        "role": "Senior writer"
+      }
+    }
+  },
+
+  "contact": {
+    "title": "Reach out to us",
+    "description": "Ready to grow your brand? Let’s connect and build something exceptional together.",
+    "name": "Your name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "message": "Message",
+    "messagePlaceholder": "Enter your message",
+    "submit": "Submit",
+    "success": "Thank you for your submission!",
+    "error": "Something went wrong. Please try again."
+  },
+
+  "footer": {
+    "description": "From strategy to execution, we craft digital solutions that move your business forward.",
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "description": "The latest news, articles, and resources, sent to your inbox weekly.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": "Copyright 2025 © agency.ai - All Right Reserved."
+  }
+}
