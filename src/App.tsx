@@ -18,8 +18,8 @@ function App() {
   const [theme, setTheme] = useState<Theme>(
     (localStorage.getItem("theme") as Theme) ?? "light",
   );
-  const dotRef = useRef(null);
-  const outlineRef = useRef(null);
+  const dotRef = useRef<HTMLDivElement | null>(null);
+  const outlineRef = useRef<HTMLDivElement | null>(null);
 
   const mouse = useRef({ x: 0, y: 0 });
   const position = useRef({ x: 0, y: 0 });

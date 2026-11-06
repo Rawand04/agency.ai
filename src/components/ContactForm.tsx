@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 const ContactForm = () => {
-  const { t } = useTranslation("common");
+  const { t, i18n } = useTranslation("common");
+  const lang = i18n.language;
+  console.log(lang);
   const onSubmit = async (event: React.SubmitEvent) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -85,7 +87,11 @@ const ContactForm = () => {
         className="rounded-full bg-primary text-white flex w-max gap-2 text-sm px-10 py-3 cursor-pointer hover:scale-103 transition-all"
       >
         {t("contact.submit")}{" "}
-        <img src={assets.arrow_icon} alt="submit" className="w-4" />
+        <img
+          src={assets.arrow_icon}
+          alt="submit"
+          className={`w-4 ${lang === "ar" ? "scale-x-[-1]" : ""}`}
+        />
       </button>
     </motion.form>
   );
